@@ -1,0 +1,24 @@
+rails s -> starts the rails server
+MVC
+Model->databases; Views-> webpages; Controlers->brains behind the scenes;
+
+App directory
+We'll mostly use this
+
+App/views/
+
+rails g controller home index
+-creates home controller in app
+-html files with '.erb' extension means that html file is embedded with ruby
+
+change initial route
+-config/routes.rb -> root 'home#index'
+
+git bash
+rails routes
+-see available routes
+
+to create a page manually
+-Page itself html file
+-controller
+-route
