@@ -22,3 +22,17 @@ to create a page manually
 -Page itself html file
 -controller
 -route
+
+
+for anchor tag
+directory_path
+ex. root_path, home_about_path
+
+to create a CRUD functionalities
+create scaffold first
+    -> rails g scaffold dbname; table_names:data_type -- separate using a space;
+    -> rails db:migrate
+create schema
+
+
+supported data types
