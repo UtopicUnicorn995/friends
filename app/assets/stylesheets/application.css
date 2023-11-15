@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+
+ .styled-link {
+    background: none;
+    border: none;
+    cursor: pointer;
+    /* Adjust padding as needed */
+  }

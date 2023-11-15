@@ -36,3 +36,7 @@ create schema
 
 
 supported data types
+
+devise
+gem that handles user management stuff
+    rubygems.org/gems/devise
