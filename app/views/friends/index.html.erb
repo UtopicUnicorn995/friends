@@ -17,5 +17,7 @@
   <% end %>
 </tbody>
 </table>
+<% if user_signed_in? %>
 <%= link_to "New friend", new_friend_path, class:'btn btn-secondary' %>
+<% end %>
 

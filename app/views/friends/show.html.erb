@@ -5,11 +5,11 @@
         <p class="col-md-8 fs-4"><%= @friend.email%> | <%= @friend.phone%> | <%= @friend.twitter%></p>
         <br>
         <br>
-        
+        <% if user_signed_in? %>
           <%= link_to "Edit this friend", edit_friend_path(@friend), class:'btn btn-success' %>
         </br>
-          <%= button_to "Destroy this friend", @friend, method: :delete, class:'btn btn-danger' %>
-        
+          <%= button_to "Destroy this friend", @friend, method: :delete, class:'btn btn-danger styled-button' %>
+        <% end %>
       </div>
 </div>
 
